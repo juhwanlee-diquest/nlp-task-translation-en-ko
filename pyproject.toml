@@ -6,8 +6,15 @@ authors = ["juhwanlee <juhwanlee@diquest.com>"]
 
 [tool.poetry.dependencies]
 python = "~3.8"
+transformers = "^4.28.1"
+sentencepiece = "^0.1.98"
+pandas = "^2.0.1"
+scikit-learn = "^1.2.2"
+datasets = "^2.11.0"
+sacrebleu = "^2.3.1"
 
 [tool.poetry.dev-dependencies]
+ipykernel = "^6.22.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
